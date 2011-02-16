@@ -1,0 +1,16 @@
+Console based bandwidth usage reporting for Hughesnet Satellite Service.
+
+Found when sharing a satellite with others with lapotops iespecially running Windows *shudder* we would often have unexpected spikes in bandwidth and run close to the cap to be put into the "Fair Access Policy" zone.
+
+Upon sharing this little tool I find it much easier to know when it's safe to download that video, or push an update to a remote server witout threatening internet access.
+
+2 ways to use it:
+ - Run from console - enter Site Id when prompted.
+ - Set your Site Id on line 9 to a string value such as 'SITEID', example given in source.
+
+Requires installation of BeautifulSoup - tested using version 3.2.0
+See: http://www.crummy.com/software/BeautifulSoup/
+or http://pypi.python.org/pypi/BeautifulSoup
+
+Please contact me if you have any trouble using this script.
+There is great room for improvement, if there is enough feedback I will likely package it as a django app and run it on google apps.
